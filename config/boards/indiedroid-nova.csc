@@ -31,9 +31,9 @@ function post_family_config_branch_indiedroid__stvhay_kernel() {
 	KERNELDIR='linux-rockchip64-rk3588-indiedroid'
 	KERNELSOURCE='https://github.com/stvhay/kernel'
 	declare -g KERNEL_MAJOR_MINOR="5.10" # Major and minor versions of this kernel.
-	KERNELBRANCH='branch:armbian-9tripod-patchset'
-#	KERNELBRANCH='branch:batocera-rk3588-3.6'
-	KERNELPATCHDIR='rockchip-rk3588-indiedroid'
+#	KERNELBRANCH='branch:armbian-9tripod-patchset'
+	KERNELBRANCH='branch:batocera-rk3588-3.6'
+#	KERNELPATCHDIR='rockchip-rk3588-indiedroid'
 	LINUXCONFIG='linux-rockchip-rk3588-indiedroid'
 
 	}

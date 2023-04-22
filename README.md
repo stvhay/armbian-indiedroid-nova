@@ -1,4 +1,4 @@
-# armbian-userpatches-example-indiedroid-nova
+# armbian-indiedroid-nova
 reference implementation of having a unique device completely configured via userpatches.
 
 
@@ -24,34 +24,22 @@ logout
 ```bash
 git clone https://github.com/armbian/build.git
 cd build
-git submodule add -f -b main https://github.com/lanefu/armbian-userpatches-example-indiedroid-nova.git userpatches
+git submodule add -f -b main https://github.com/stvhay/armbian-indiedroid-nova.git userpatches
 ```
 
 ### interactive build
 
 will prompt for menus etc
 
-```
+```bash
 ./compile.sh nova
 ```
 
-### sid cli build
+### indiedroid gnome image with with GPU acceleration
 
-uses `config-nova-sid.conf` to build a cli based debian sid image
+uses `config-nova-gnome-multimedia.conf` to build a cli based debian sid image
 
-`./compile.sh nova-sid`
-
-### really bloated gnome build
-
-uses `config-nova-gnmoe-bloated.conf` to build a gnome desktop bloated by most application groups selected
-
-`./compile.sh nova-gnome-bloated`
-
-### really really opinionated configuration
-
-uses `config-opinionated.conf` to build a debian sid cli image with custom ssh keys, strip out the normal interactive setup.  ready to boot.. and names itself princess-sbc
-
-
+`./compile.sh nova-gnome-multimedia`
 
 ## learn more
 

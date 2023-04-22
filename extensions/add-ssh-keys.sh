@@ -1,3 +1,4 @@
+#!/bin/bash
 function extension_prepare_config__prepare_ssh_keys() {
 	display_alert "SSH Keys extension enabled" "${EXTENSION}" "info"
 }

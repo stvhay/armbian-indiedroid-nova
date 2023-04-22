@@ -1,3 +1,4 @@
+#!/bin/bash
 function post_family_tweaks_bsp__scrub_enhancements() {
 	display_alert "Removing stuff from BSP" "${EXTENSION}" "warn"
 
